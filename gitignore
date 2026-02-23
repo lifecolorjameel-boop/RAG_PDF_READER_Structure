@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+myvenv/
+venv/
+env/
+.venv/
+
+# Environment variables (never commit your API keys!)
+.env
+
+# Pinecone / OpenAI temp files
+*.pkl
+*.faiss
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
